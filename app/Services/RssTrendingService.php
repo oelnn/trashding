@@ -13,6 +13,7 @@ class RssTrendingService
         'google' => 'https://news.google.com/rss?hl=id&gl=ID&ceid=ID:id',
         // Detik sering reset → kita jadikan opsional
         'cnn'    => 'https://www.cnnindonesia.com/rss',
+        'kompas' => 'https://www.kompas.com/rss',
     ];
 
     public function fetch(): void
